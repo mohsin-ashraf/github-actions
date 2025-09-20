@@ -38,3 +38,10 @@ jobs:
       run: |
         export PYTHONPATH=$PYTHONPATH:${{ github.workspace }}
         pytest
+
+    - name: Checking the secret value
+      run: echo ${{ secrets.MY_SECRET }}
+      env:
+        MY_SECRET: ${{ secrets.MY_SECRET }}
+    - name: Verify Python Version
+      run: python --version
