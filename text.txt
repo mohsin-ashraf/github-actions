@@ -14,4 +14,6 @@ Let's check if if we can create the release via the workflows with the changes w
 
 So pushing directly to main didn't work let's push it in a branch and then merge
 
-Let's test two thingies togethre
+Let's test two thingies together.
+
+Added some precommits to see what happens
