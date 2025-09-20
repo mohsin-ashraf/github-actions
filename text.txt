@@ -10,3 +10,4 @@ Oh yeah! Its working now ---> https://github.com/mohsin-ashraf/github-actions/ac
 
 Merging in a branch to master then let see what happens
 
+Let's check if if we can create the release via the workflows with the changes we did or not
