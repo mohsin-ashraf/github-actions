@@ -6,3 +6,7 @@ I had the wrong image which is not available on the github actions
 
 Changed the image and directly pushing to the main branch now
 
+Oh yeah! Its working now ---> https://github.com/mohsin-ashraf/github-actions/actions/runs/17878759073/job/50843715252
+
+Merging in a branch to master then let see what happens
+
