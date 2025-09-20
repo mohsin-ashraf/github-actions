@@ -2,3 +2,7 @@ This is text file
 
 Its not working let's merge to master
 
+I had the wrong image which is not available on the github actions
+
+Changed the image and directly pushing to the main branch now
+
