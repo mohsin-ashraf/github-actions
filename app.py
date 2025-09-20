@@ -1,3 +1,6 @@
+import os
+
+import requests
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -19,5 +22,5 @@ def health():
     return jsonify(status="ok")
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5001)
-
+    port = 5001 or os.getenv("PORT")
+    app.run(debug=True, host="0.0.0.0", port=port)
