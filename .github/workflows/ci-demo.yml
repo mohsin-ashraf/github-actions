@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: python-alpine
+    runs-on: ubuntu-latest
 
     steps:
       - name: 'checkout code'
