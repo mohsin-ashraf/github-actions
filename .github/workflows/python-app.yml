@@ -46,7 +46,6 @@ jobs:
     - name: Verify Python Version
       run: python --version
 
-  build:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
